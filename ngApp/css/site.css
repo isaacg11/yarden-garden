@@ -1,0 +1,48 @@
+/* global */
+
+body {
+  font-family: 'Josefin Sans'
+}
+
+nav {
+  height: 69px;
+  background-color: #FFFFFF;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+/* helpers */
+.green-one {
+  color: #81C157;
+}
+
+.green-two {
+  color: #CCEEB6;
+}
+
+.green-three {
+  color: #ABE188;
+}
+
+.green-four {
+  color: #5EA133;
+}
+
+.green-five {
+  color: #408016 !important;
+}
+
+.green-five:hover {
+  background-color: #FFFFFF;
+}
+
+
+/* home */
+.company-name {
+  padding-left: 5px !important;
+  padding-top: 5px !important;
+}
+
+.nav-option {
+  padding-top: 5px !important;
+}
