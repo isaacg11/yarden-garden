@@ -125,3 +125,9 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
   background-color: #408016;
   color: #FFFFFF;
 }
+
+.avatar-img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
