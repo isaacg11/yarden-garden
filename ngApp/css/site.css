@@ -1,4 +1,4 @@
-/* global */
+/* element selectors */
 
 body {
   font-family: 'Josefin Sans'
@@ -11,16 +11,28 @@ nav {
   padding-right: 10px;
 }
 
-.section-title {
-  padding-top: 50px;
-  padding-bottom: 50px;
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
 }
 
-.para {
-  font-size: 20px;
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #408016;
+    box-shadow: 0 1px 0 0 #408016;
 }
 
-/* helpers */
+/* helper classes */
 .green-one {
   color: #81C157;
 }
@@ -48,6 +60,15 @@ nav {
 
 .green-five:hover {
   background-color: #FFFFFF;
+}
+
+.section-title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.para {
+  font-size: 20px;
 }
 
 /* home */
@@ -88,4 +109,15 @@ nav {
 .learn-more-btn:hover {
   background-color: #81C157;
   color: #000000;
+}
+
+.signup-btn {
+  background-color: #81C157;
+  font-size: 20px;
+  width: 100%;
+}
+
+.signup-btn:hover {
+  background-color: #408016;
+  color: #FFFFFF;
 }
