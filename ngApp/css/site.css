@@ -16,12 +16,35 @@ nav {
   color: #81C157;
 }
 
+.green-one-btn {
+  background-color: #81C157;
+}
+
+.green-one-btn:hover {
+  background-color: #408016;
+  color: #FFFFFF;
+}
+
 .green-two {
   color: #CCEEB6;
 }
 
+.green-two-btn {
+  background-color: #CCEEB6;
+}
+
 .green-three {
   color: #ABE188;
+}
+
+.green-three-btn {
+  background-color: #ABE188;
+  color: #666666;
+}
+
+.green-three-btn:hover {
+  background-color: #81C157;
+  color: #666666;
 }
 
 .green-four {
@@ -36,7 +59,6 @@ nav {
   background-color: #FFFFFF;
 }
 
-
 /* home */
 .company-name {
   padding-left: 5px !important;
@@ -45,4 +67,12 @@ nav {
 
 .nav-option {
   padding-top: 5px !important;
+}
+
+.company-slogan{
+  padding-top: 80px;
+}
+
+.cover-img {
+  width: 100vw;
 }
