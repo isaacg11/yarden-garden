@@ -107,12 +107,11 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
   background-color: #ABE188;
   color: #666666;
   font-size: 20px;
-
 }
 
 .learn-more-btn:hover {
-  background-color: #81C157;
-  color: #000000;
+  background-color: #408016;
+  color: #FFFFFF;
 }
 
 .signup-btn {
@@ -130,4 +129,9 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
   border-radius: 50%;
   height: 150px;
   width: 150px;
+}
+
+.faq {
+  border-top: 1px solid #EEEEEE;
+  padding-top: 15px
 }
