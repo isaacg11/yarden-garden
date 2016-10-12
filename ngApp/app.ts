@@ -17,6 +17,10 @@ namespace MyApp {
                 url: '/about',
                 templateUrl: '/ngApp/views/about.html'
             })
+            .state('Careers', {
+                url: '/careers',
+                templateUrl: '/ngApp/views/careers.html'
+            })
             .state('notFound', {
                 url: '/notFound',
                 templateUrl: '/ngApp/views/notFound.html'

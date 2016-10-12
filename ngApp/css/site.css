@@ -157,3 +157,22 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
   width: 100%;
   background-color: #52880B;
 }
+
+/* careers */
+.career-cover {
+  width: 100%;
+}
+
+.filler {
+  margin-top: 152px;
+  height: 70vh;
+  width: 100%;
+  background:
+  radial-gradient(circle farthest-side at 0% 50%,#baec79 23.5%,rgba(255, 255, 255, 0) 0)21px 30px,
+  radial-gradient(circle farthest-side at 0% 50%,#FFFFFF 24%,rgba(255, 255, 255, 0) 0)19px 30px,
+  linear-gradient(#baec79 14%,rgba(255, 255, 255,0) 0, rgba(255, 255, 255, 0) 85%,#baec79 0)0 0,
+  linear-gradient(150deg,#baec79 24%,#FFFFFF 0,#FFFFFF 26%,rgba(255, 255, 255, 0) 0,rgba(255, 255, 255, 0) 74%,#FFFFFF 0,#FFFFFF 76%,#baec79 0)0 0,
+  linear-gradient(30deg,#baec79 24%,#FFFFFF 0,#FFFFFF 26%,rgba(255, 255, 255, 0) 0,rgba(255, 255, 255, 0) 74%,#FFFFFF 0,#FFFFFF 76%,#baec79 0)0 0,
+  linear-gradient(90deg,#FFFFFF 2%,#baec79 0,#baec79 98%,#FFFFFF 0%)0 0 #baec79;
+  background-size:40px 60px;
+}
