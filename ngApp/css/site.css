@@ -176,3 +176,13 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
   linear-gradient(90deg,#FFFFFF 2%,#baec79 0,#baec79 98%,#FFFFFF 0%)0 0 #baec79;
   background-size:40px 60px;
 }
+
+.inquiry-btn {
+  background-color: #6FAB20;
+  font-size: 20px;
+}
+
+.inquiry-btn:hover {
+  background-color: #52880B;
+  color: #FFFFFF;
+}
