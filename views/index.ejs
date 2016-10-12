@@ -15,7 +15,68 @@
 
 <body>
 
+  <!-- navbar start (desktop) -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/">
+          <img src="/ngApp/images/logo.png" class="responsive-img"/>
+        </a>
+        <a class="brand-logo company-name" href="/">Yarden</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li class="nav-option"><a href="/about" class="navbar-link">About</a></li>
+          <li class="nav-option"><a href="badges.html" class="navbar-link">Careers</a></li>
+          <li class="nav-option"><a href="collapsible.html" class="navbar-link">Pricing</a></li>
+          <li class="nav-option"><a href="collapsible.html" class="navbar-link">Blog</a></li>
+          <li class="nav-option"><a href="collapsible.html" class="navbar-link">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- navbar end (desktop) -->
+
+  <!-- renders views start -->
   <ui-view></ui-view>
+  <!-- renders views end -->
+
+  <!-- footer start (desktop) -->
+  <footer class="page-footer" style="background-color: #52880B;">
+    <div class="container" style="padding-top: 20px; padding-bottom: 20px;">
+      <div class="row">
+        <div class="col s6">
+          <h5 class="white-text">Join Our Newsletter!</h5>
+          <div class="input-field">
+            <input type="text" placeholder="Email Address" />
+            <a class="waves-effect waves-light btn-large newsletter-btn">Signup</a>
+          </div>
+        </div>
+        <div class="col s2"></div>
+        <div class="col s4">
+          <h5 class="white-text">Company</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3 footer-option" href="#!">Team</a></li>
+              <li><a class="grey-text text-lighten-3 footer-option" href="#!">Partner with us</a></li>
+              <li><a class="grey-text text-lighten-3 footer-option" href="#!">Terms & Conditions</a></li>
+              <li><a class="grey-text text-lighten-3 footer-option" href="#!">Service Areas</a></li>
+              <li><a class="grey-text text-lighten-3 footer-option" href="#!">Contact Us</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <span style="padding-right: 20px;">© 2016 Yarden, All Rights Reserved</span>
+        <a class="social-icon"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a class="social-icon"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a class="social-icon"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+        <a class="social-icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a class="social-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a class="social-icon"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+        <a class="social-icon"><i class="fa fa-tumblr-square" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end (desktop) -->
 
   <!-- frameworks/libs -->
   <script src="/bower_components/angular/angular.min.js"></script>

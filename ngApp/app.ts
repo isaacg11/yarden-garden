@@ -7,11 +7,15 @@ namespace MyApp {
     ) => {
         // Define routes
         $stateProvider
-            .state('home', {
+            .state('Home', {
                 url: '/',
                 templateUrl: '/ngApp/views/home.html',
                 controller: MyApp.Controllers.HomeController,
                 controllerAs: 'controller'
+            })
+            .state('About', {
+                url: '/about',
+                templateUrl: '/ngApp/views/about.html'
             })
             .state('notFound', {
                 url: '/notFound',
