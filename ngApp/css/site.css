@@ -186,3 +186,7 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
   background-color: #52880B;
   color: #FFFFFF;
 }
+
+.req-icon {
+  color: #8BC63F;
+}
