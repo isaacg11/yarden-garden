@@ -37,48 +37,26 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
 }
 
 /* helper classes */
-.green-one {
-  color: #81C157;
-}
-
-.green-two {
-  color: #CCEEB6;
-}
-
-.green-two-btn {
-  background-color: #CCEEB6;
-}
-
-.green-three {
-  color: #ABE188;
-}
-
-.green-four {
-  color: #5EA133;
-}
-
-.green-five {
-  color: #408016 !important;
-  font-size: 20px;
-}
-
-.green-five:hover {
-  background-color: #FFFFFF;
-}
 
 .section-title {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.para {
-  font-size: 20px;
-}
-
 /* home */
 .company-name {
   padding-left: 5px !important;
   padding-top: 5px !important;
+  color: #52880B !important;
+}
+
+.navbar-link {
+  color: #52880B !important;
+  font-size: 20px;
+}
+
+.navbar-link:hover {
+  background-color: #FFFFFF;
 }
 
 .nav-option {
@@ -94,34 +72,34 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
 }
 
 .get-started-btn {
-  background-color: #81C157;
+  background-color: #6FAB20;
   font-size: 20px;
 }
 
 .get-started-btn:hover {
-  background-color: #408016;
+  background-color: #52880B;
   color: #FFFFFF;
 }
 
 .learn-more-btn {
-  background-color: #ABE188;
+  background-color: #C8F094;
   color: #666666;
   font-size: 20px;
 }
 
 .learn-more-btn:hover {
-  background-color: #408016;
+  background-color: #52880B;
   color: #FFFFFF;
 }
 
 .signup-btn {
-  background-color: #81C157;
+  background-color: #6FAB20;
   font-size: 20px;
   width: 100%;
 }
 
 .signup-btn:hover {
-  background-color: #408016;
+  background-color: #52880B;
   color: #FFFFFF;
 }
 
@@ -134,4 +112,33 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
 .faq {
   border-top: 1px solid #EEEEEE;
   padding-top: 15px
+}
+
+.footer-option {
+  font-size: 20px;
+  color: #408016;
+}
+
+.newsletter-btn {
+  margin-top: 10px;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 20px;
+}
+
+.newsletter-btn:hover {
+  background-color: #C8F094;
+  color: #666666;
+  font-size: 20px;
+}
+
+.social-icon {
+  font-size: 20px;
+  color: #FFFFFF;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  color: #CCEEB6;
 }
