@@ -190,3 +190,7 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
 .req-icon {
   color: #8BC63F;
 }
+
+.garden-square {
+  padding: 50px 30px 50px 30px;
+}
