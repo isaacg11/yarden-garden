@@ -165,7 +165,7 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
 
 .filler {
   margin-top: 152px;
-  height: 70vh;
+  height: 515px;
   width: 100%;
   background:
   radial-gradient(circle farthest-side at 0% 50%,#baec79 23.5%,rgba(255, 255, 255, 0) 0)21px 30px,
