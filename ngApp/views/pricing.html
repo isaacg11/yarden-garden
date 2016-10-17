@@ -29,7 +29,10 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
         <span style="padding: 20px 0px 20px 0px;">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
-        <a class="waves-effect waves-light btn-large signup-btn" style="margin-top: 20px;">Signup</a>
+        <a
+          ng-click="vm.goToSignup()"
+          class="waves-effect waves-light btn-large signup-btn"
+          style="margin-top: 20px;">Signup</a>
       </div>
     </div>
   </div>
@@ -45,7 +48,11 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
         <span style="padding: 20px 0px 20px 0px;">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
-        <a class="waves-effect waves-light btn-large signup-btn" style="margin-top: 20px;">Signup</a>
+        <a
+          ng-click="vm.goToSignup()"
+          class="waves-effect waves-light btn-large signup-btn"
+          style="margin-top: 20px;">Signup
+        </a>
       </div>
     </div>
   </div>
@@ -136,17 +143,70 @@
 
 <!-- no brainer start (desktop) -->
 <div class="row text-center">
-  <div class="col s12">
+  <div class="col s12" style="padding: 0px 0px 0px 0px;">
     <div style="border-top: 2px solid #EEEEEE;">
       <h3 style="padding: 50px 0px 30px 0px;">It's a No-Brainer</h3>
     </div>
   </div>
   <div class="col s2"></div>
   <div class="col s8" style="padding-bottom: 50px;">
-    <h4>Ask yourself, how much time to you honestly spend in your yard? Probably not that much.</h4>
+    <h4>Ask yourself, how much time to you actually spend using your yard? Probably not that much.</h4>
     <h4 style="padding-top: 20px;">It's time to put that empty potential to use.</h4>
-    <a class="waves-effect waves-light btn-large inquiry-btn">Signup Now!</a>
+    <a class="waves-effect waves-light btn-large inquiry-btn" ng-click="vm.goToSignup()">Signup Now!</a>
   </div>
   <div class="col s2"></div>
 </div>
 <!-- no brainer end (desktop) -->
+
+<!-- footer start (desktop) -->
+<footer class="page-footer" style="background-color: #52880B;">
+  <div class="container" style="padding-top: 20px; padding-bottom: 20px;">
+    <div class="row">
+      <div class="col s6">
+        <h5 class="white-text">Join Our Newsletter!</h5>
+        <div class="input-field">
+          <input type="text" placeholder="Email Address" />
+          <a class="waves-effect waves-light btn-large newsletter-btn">Signup</a>
+        </div>
+      </div>
+      <div class="col s2"></div>
+      <div class="col s4">
+        <h5 class="white-text">Company</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3 footer-option" href="#!">Team</a></li>
+            <li><a class="grey-text text-lighten-3 footer-option" href="#!">Partner with us</a></li>
+            <li><a class="grey-text text-lighten-3 footer-option" href="#!">Terms of Use</a></li>
+            <li><a class="grey-text text-lighten-3 footer-option" href="#!">Service Areas</a></li>
+            <li><a class="grey-text text-lighten-3 footer-option" href="#!">Contact Us</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      <span style="padding-right: 20px;">© 2016 Yarden, All Rights Reserved</span>
+      <a class="social-icon" href="https://www.facebook.com/YardenMyGarden" target="_blank">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+      </a>
+      <a class="social-icon" href="https://twitter.com/YardenMyGarden" target="_blank">
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+      </a>
+      <a class="social-icon" href="https://plus.google.com/100292823495128676685" target="_blank">
+        <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+      </a>
+      <a class="social-icon" href="https://www.linkedin.com/company/12903995" target="_blank">
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+      </a>
+      <a class="social-icon" href="https://www.instagram.com/yardenmygarden" target="_blank">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a>
+      <a class="social-icon" href="https://www.pinterest.com/YardenMyGarden" target="_blank">
+        <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+      </a>
+      <a class="social-icon" href="https://yardenmygarden.tumblr.com/" target="_blank">
+        <i class="fa fa-tumblr-square" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+<!-- footer end (desktop) -->

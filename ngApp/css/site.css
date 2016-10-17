@@ -159,6 +159,7 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
 
 .social-icon:hover {
   color: #CCEEB6;
+  text-decoration: none;
 }
 
 /* about */
@@ -190,7 +191,6 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
 .req-icon {
   color: #8BC63F;
 }
-
 
 /* login */
 
