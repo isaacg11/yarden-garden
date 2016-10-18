@@ -3,7 +3,7 @@ namespace MyApp {
     angular.module('app', ['ui.router', 'ngResource', 'ui.bootstrap', 'duScroll']).config((
         $stateProvider: ng.ui.IStateProvider,
         $urlRouterProvider: ng.ui.IUrlRouterProvider,
-        $locationProvider: ng.ILocationProvider,
+        $locationProvider: ng.ILocationProvider
     ) => {
 
         // Define routes

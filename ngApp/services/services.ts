@@ -1,9 +1,11 @@
 namespace MyApp.Services {
 
-    export class MovieService {
+    export class UserService {
 
-        constructor() {
-        }
+
+      constructor() {
+      }
     }
-    angular.module('app').service('movieService', MovieService);
+    
+    angular.module('app').service('userService', UserService);
 }
